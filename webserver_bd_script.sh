@@ -13,6 +13,6 @@ echo "Iniciando donwload do site"
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 echo "Descompactando site"
 unzip main.zio
-cd linux-site-dio
+cd linux-site-dio-main
 echo "Copiando arquivos para diretorio default do apache2"
 cp -R * /var/www/html/
