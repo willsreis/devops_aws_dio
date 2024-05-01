@@ -1,0 +1,117 @@
+:root {
+    --bglight: #ffffff;
+    --bgdark: #000000;
+}
+
+body {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+.light-theme {
+    --bg: var(--bglight);
+    --fontColor: var(--bgdark);
+    --btnBg: var(--bgdark);
+    --btnFontColor: var(--bglight)
+}
+
+.dark-theme {
+    --bg: var(--bgdark);
+    --fontColor: var(--bglight);
+    --btnBg: var(--bglight);
+    --btnFontColor: var(--bgdark);
+}
+
+.btn {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    font-size: 58%;
+}
+
+#slider {
+    top: 10px;
+    width: 10%;
+    max-width: 250px;
+    height: 75vw;
+    max-height: 500px;
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    left: 116px;
+    width: 55%;
+    height: 85%;
+    object-fit: cover;
+    transition: opacity 50ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+/* 
+div2 */
+
+#abc2 {
+    top: 10px;
+    width: 10%;
+    max-width: 250px;
+    height: 75vw;
+    max-height: 500px;
+    position: relative;
+}
+
+#abc2 img {
+    opacity: 0;
+    position: absolute;
+    right: 1px;
+    width: 55%;
+    height: 85%;
+    object-fit: cover;
+    transition: opacity 50ms;
+}
+
+#abc2 img.selec2 {
+    opacity: 1;
+}
+
+
+/* div3 */
+
+
+
+#zxc {
+    top: 10px;
+    width: 10%;
+    max-width: 250px;
+    height: 75vw;
+    max-height: 500px;
+    position: relative;
+}
+
+#zxc img {
+    opacity: 0;
+    position: absolute;
+    width: 55%;
+    height: 85%;
+    object-fit: cover;
+    transition: opacity 50ms;
+}
+
+#zxc img.zxc2 {
+    opacity: 1;
+}
